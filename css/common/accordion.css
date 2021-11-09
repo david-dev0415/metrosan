@@ -1,0 +1,53 @@
+.accordion {
+  background-color: #eee;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1.1em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: rgba(29, 25, 56, 0.9);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.accordion:after {
+  content: "\002B";
+  color: rgba(29, 25, 56, 0.9);
+  /* color: white; */
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+  color: #fff;
+}
+
+.accordion:hover::after {
+  content: "\002B";
+  color: #fff;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 1.2em;  
+  background-color: rgba(29, 25, 56, 0.2);
+  min-height: auto;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}

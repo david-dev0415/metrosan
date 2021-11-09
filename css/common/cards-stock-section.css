@@ -1,0 +1,107 @@
+/* Sección de valores */
+.container {
+  color: white;
+  margin: 1em auto;
+  width: 100%;
+  background: var(--dark-blue-color-style);
+  padding: 1em;
+  font-size: 1em;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card-main {
+  background-color: var(--purple);
+  border-radius: 1em;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card-col-img {
+  background-image: url('../../img/teamwork.jpg');
+  background-color: var(--shadow-blue);
+  background-size: cover;  
+  background-repeat: no-repeat;  
+  background-blend-mode: multiply;
+  height: 300px;
+}
+
+.card-body {
+  /* padding-left: 1em;
+  padding-right: 1em; */  
+  padding: 2em 2em;
+  text-align: center;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-text {
+  /* font-weight: 700;   */
+  color: var(--light-white);
+  padding-bottom: 1em;
+}
+
+.card-title-blue {
+  color: var(--shadow-blue);
+}
+
+.card-container-footer {
+  padding-top: 1em;
+}
+
+.card-container-footer div {
+  padding-bottom: 1em;
+}
+
+.footer-title {
+  font-family: 'Raleway';
+  font-size: 1.3rem;
+  margin-bottom: 0.3em;
+  padding: 0 0.70rem;
+}
+
+.footer-text {
+  margin-top: 0;
+  color: var(--light-white);
+  text-transform: uppercase;
+  font-size: .8rem;
+  letter-spacing: 1px;
+}
+
+.m-auto {
+  margin: .5em;
+}
+
+@media (min-width: 768px) {
+  .card-col-img {
+    width: 400px;
+    order: 2;
+    flex: 1;
+  }
+
+  .card-col-body {
+    order: 1;
+    flex: 1;
+  }
+
+  .card-container-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-container-footer div {
+    padding-bottom: 0;
+  }
+
+  .card-main {
+    display: flex;
+    max-width: 1000px;
+  }
+}
+
+

@@ -1,0 +1,20 @@
+:root {
+    --c-blue: #00b7c9;
+    --c-mustard: #ffc500;
+    --c-blue-2: #00a4ca;
+    --c-blue-3: #027a95;
+    --c-black: #16181A;
+    --dark-blue-color-style: #0C0B1D;
+    --purple: #1D1938;
+    --green: #027a95;
+    --c-oficial: #2D3192;
+    --line-height-normal: 2.5;
+
+    /* Color palette */
+    --shadow-blue: #7E91DF;
+    --light-white: rgba(255, 255, 255, .8);
+    
+
+    /* Border radius */
+    --b-radius: 0.3rem;
+}
