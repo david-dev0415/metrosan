@@ -89,6 +89,78 @@ button {
   justify-content: space-between;
 }
 
+.modal-content-map iframe {
+  width: 100%;
+  height: 460px;
+}
+
+
+.modal-header .modal-header__title {
+  font-weight: 600;
+}
+
+.modal-content-descrip {
+  text-align: left;
+  width: 100%;
+}
+
+.modal-content-descrip h3 {
+  background-color: var(--purple);
+  color: white;
+  padding: 1rem;
+}
+
+.modal-content-descrip-tb {
+  width: 100%;
+  border-collapse: separate;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.modal-content-descrip-tb thead tr th,
+.modal-content-descrip-tb tbody tr td,
+.modal-content-descrip-tb tfoot tr td,
+.modal-content-descrip--info {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+/* .modal-content-descrip--info {
+  color: var(--green);
+  background: white;
+  padding: .5rem;
+} */
+
+.modal-content-descrip--info {
+  background-color: var(--green);
+  color: white;
+  padding: .5rem;
+}
+
+.modal-content-descrip--info .tfoot-bolder {
+  font-weight: bold;
+}
+
+
+.modal-content-descrip-tb thead th i {
+  margin-right: 0.3rem;
+}
+
+.modal-content-descrip-tb thead th i {
+  margin-right: 0.3rem;
+}
+
+
+
+.modal-content-descrip-tb tr:nth-child(even) {
+  background-color: #eee;  
+}
+
+.modal-footer {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 .modal-header .close-modal {
   font-size: 1.5rem;
 }
