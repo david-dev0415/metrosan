@@ -71,7 +71,6 @@
           <h5 class="card-title">20 de Julio</h5>
           <p class="card-text">Descripción corta de 20 de juluio</p>
           <div class="card-container">
-            <!-- <a href="#modal" class="btn btn-color-default">Ver a detalle</a> -->
             <button type="button" class="btn btn-color-default open-modal" data-open="modal1">
               Ver más
             </button>
@@ -100,20 +99,16 @@
                       <tbody>
                         <tr>
                           <td>
-                            <p>Inicio ruta (Cra. 109, Cll. 38a)</p>
+                            Inicio ruta (Cra. 109, Cll. 38a)
                           </td>
                           <td>4 minutos</td>
                         </tr>
                         <tr>
-                          <td>
-                            <p>Cementerio</p>
-                          </td>
+                          <td>Cementerio</td>
                           <td>1 minuto</td>
                         </tr>
                         <tr>
-                          <td>
-                            <p>Estación</p>
-                          </td>
+                          <td>Est. San Javier</td>
                           <td>9 minutos</td>
                         </tr>
                       </tbody>
@@ -121,7 +116,7 @@
                     <div class="modal-content-descrip--info">
                       <span class="tfoot-bolder">Tiempo estimado de viaje:
                       </span>
-                      10 minutos aprox.
+                      14 minutos aprox.
                     </div>
                   </div>
                 </section>
@@ -136,36 +131,66 @@
       </div>
     </div>
 
-
-    <!-- #Ruta:  -->
+    <!-- #Ruta:  El depósito -->
     <div class="cards-our-routes__list__item">
       <div class="card-our-routes">
         <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
           src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17ce2d3a8ec%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17ce2d3a8ec%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22107.1953125%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
           data-holder-rendered="true">
         <div class="card-body">
-          <h5 class="card-title">Nombre de la ruta</h5>
+          <h5 class="card-title">El depósito</h5>
           <p class="card-text">Descripción corta de la ruta</p>
           <div class="card-container">
-            <!-- <a href="#modal" class="btn btn-color-default">Ver a detalle</a> -->
             <button type="button" class="btn btn-color-default open-modal" data-open="modal2">
               Ver más
             </button>
             <div class="modal" id="modal2" data-animation="slideInOutLeft">
               <div class="modal-dialog">
                 <header class="modal-header">
-                  The header of the first modal
+                  <span class="modal-header__title">Ruta: El depósito</span>
                   <button class="close-modal" aria-label="close modal" data-close>
                     ✕
                   </button>
                 </header>
                 <section class="modal-content">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos eius exercitationem cum ullam
-                    ipsum a tempore! Sunt, beatae voluptatibus nobis eveniet repellat vel blanditiis fugit magnam?
-                    Corrupti nisi accusantium placeat?</p>
+                  <div class="modal-content-map">
+                    <iframe loading="lazy"
+                      src="https://www.google.com/maps/d/embed?mid=1TvZ3KcLyJENm9cxH5bl1F_ROCDjINBWz"></iframe>
+                  </div>
+                  <div class="modal-content-descrip">
+                    <h3>Nuestro recorrido</h3>
+                    <table class="modal-content-descrip-tb">
+                      <thead>
+                        <tr>
+                          <th scope="col"><i class="fas fa-map-marker-alt"></i>Lugar</th>
+                          <th scope="col"><i class="fas fa-clock"></i>Tiempo aprox.</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            Inicio ruta (Cra. 115, Cll. 39b)</td>
+                          <td>4 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Centro de salud</td>
+                          <td>2 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Est. San Javier</td>
+                          <td>9 minutos</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="modal-content-descrip--info">
+                      <span class="tfoot-bolder">Tiempo estimado de viaje:
+                      </span>
+                      16 minutos aprox.
+                    </div>
+                  </div>
                 </section>
                 <footer class="modal-footer">
-                  The footer of the first modal
+                  Las rutas están establecidas de acuerdo a la secretaria de movilidad.
                 </footer>
               </div>
             </div>
@@ -175,33 +200,77 @@
       </div>
     </div>
 
-    <!-- #Ruta:  -->
+    <!-- #Ruta:  La Gabriela -->
     <div class="cards-our-routes__list__item">
       <div class="card-our-routes">
         <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
           src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17ce2d3a8ec%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17ce2d3a8ec%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22107.1953125%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
           data-holder-rendered="true">
         <div class="card-body">
-          <h5 class="card-title">Nombre de la ruta</h5>
+          <h5 class="card-title">La Gabriela</h5>
           <p class="card-text">Descripción corta de la ruta</p>
           <div class="card-container">
-            <!-- <a href="#modal" class="btn btn-color-default">Ver a detalle</a> -->
             <button type="button" class="btn btn-color-default open-modal" data-open="modal3">
               Ver más
             </button>
             <div class="modal" id="modal3" data-animation="slideInOutLeft">
               <div class="modal-dialog">
                 <header class="modal-header">
-                  The header of the first modal
+                  <span class="modal-header__title">Ruta: La Gabriela</span>
                   <button class="close-modal" aria-label="close modal" data-close>
                     ✕
                   </button>
                 </header>
                 <section class="modal-content">
-                  <p></p>
+                  <div class="modal-content-map">
+                    <iframe loading="lazy"
+                      src="https://www.google.com/maps/d/embed?mid=1m4mU1ZXIbfK5eMwbOMLkYoWujYZoYhYl"></iframe>
+                  </div>
+                  <div class="modal-content-descrip">
+                    <h3>Nuestro recorrido</h3>
+                    <table class="modal-content-descrip-tb">
+                      <thead>
+                        <tr>
+                          <th scope="col"><i class="fas fa-map-marker-alt"></i>Lugar</th>
+                          <th scope="col"><i class="fas fa-clock"></i>Tiempo aprox.</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            Inicio ruta (Paradero de buses la Gabriela)
+                          </td>
+                          <td>4 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            La Gabriela
+                          </td>
+                          <td>2 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Don Huevo</td>
+                          <td>9 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Est. San Javier</td>
+                          <td>9 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Parche Pilsen</td>
+                          <td>4 minutos</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="modal-content-descrip--info">
+                      <span class="tfoot-bolder">Tiempo estimado de viaje:
+                      </span>
+                      16 minutos aprox.
+                    </div>
+                  </div>
                 </section>
                 <footer class="modal-footer">
-                  The footer of the first modal
+                  Las rutas están establecidas de acuerdo a la secretaria de movilidad.
                 </footer>
               </div>
             </div>
@@ -211,14 +280,14 @@
       </div>
     </div>
 
-    <!-- #Ruta:  -->
+    <!-- #Ruta: La Colina -->
     <div class="cards-our-routes__list__item">
       <div class="card-our-routes">
         <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
           src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17ce2d3a8ec%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17ce2d3a8ec%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22107.1953125%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
           data-holder-rendered="true">
         <div class="card-body">
-          <h5 class="card-title">Nombre de la ruta</h5>
+          <h5 class="card-title">La Colina</h5>
           <p class="card-text">Descripción corta de la ruta</p>
           <div class="card-container">
             <!-- <a href="#modal" class="btn btn-color-default">Ver a detalle</a> -->
@@ -228,16 +297,49 @@
             <div class="modal" id="modal4" data-animation="slideInOutLeft">
               <div class="modal-dialog">
                 <header class="modal-header">
-                  The header of the first modal
+                  <span class="modal-header__title">Ruta: La Colina</span>
                   <button class="close-modal" aria-label="close modal" data-close>
                     ✕
                   </button>
                 </header>
                 <section class="modal-content">
-                  <p></p>
+                  <div class="modal-content-map">
+                    <iframe loading="lazy"
+                      src="https://www.google.com/maps/d/embed?mid=1as7B4588zV8ISc79J3JB2kKwQkm99vY3"></iframe>
+                  </div>
+                  <div class="modal-content-descrip">
+                    <h3>Nuestro recorrido</h3>
+                    <table class="modal-content-descrip-tb">
+                      <thead>
+                        <tr>
+                          <th scope="col"><i class="fas fa-map-marker-alt"></i>Lugar</th>
+                          <th scope="col"><i class="fas fa-clock"></i>Tiempo aprox.</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Inicio ruta (Cra. 107. Cll. 35d)</td>
+                          <td>4 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Cementerio</td>
+                          <td>1 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Est. San Javier</td>
+                          <td>9 minutos</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="modal-content-descrip--info">
+                      <span class="tfoot-bolder">Tiempo estimado de viaje:
+                      </span>
+                      16 minutos aprox.
+                    </div>
+                  </div>
                 </section>
                 <footer class="modal-footer">
-                  The footer of the first modal
+                  Las rutas están establecidas de acuerdo a la secretaria de movilidad.
                 </footer>
               </div>
             </div>
@@ -247,69 +349,276 @@
       </div>
     </div>
 
-    <!-- #Ruta:  -->
+    <!-- #Ruta: Caseta -->
     <div class="cards-our-routes__list__item">
       <div class="card-our-routes">
         <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
           src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17ce2d3a8ec%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17ce2d3a8ec%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22107.1953125%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
           data-holder-rendered="true">
         <div class="card-body">
-          <h5 class="card-title">Nombre de la ruta</h5>
+          <h5 class="card-title">Caseta</h5>
           <p class="card-text">Descripción corta de la ruta</p>
           <div class="card-container">
-            <!-- <a href="#modal" class="btn btn-color-default">Ver a detalle</a> -->
             <button type="button" class="btn btn-color-default open-modal" data-open="modal5">
               Ver más
             </button>
             <div class="modal" id="modal5" data-animation="slideInOutLeft">
               <div class="modal-dialog">
                 <header class="modal-header">
-                  The header of the first modal
+                  <span class="modal-header__title">Ruta: Caseta</span>
                   <button class="close-modal" aria-label="close modal" data-close>
                     ✕
                   </button>
                 </header>
                 <section class="modal-content">
-                  <p></p>
+                  <div class="modal-content-map">
+                    <iframe loading="lazy"
+                      src="https://www.google.com/maps/d/embed?mid=1LCEnCTiu-vWJhO-iTriAoRELyTzUdbMd"></iframe>
+                  </div>
+                  <div class="modal-content-descrip">
+                    <h3>Nuestro recorrido</h3>
+                    <table class="modal-content-descrip-tb">
+                      <thead>
+                        <tr>
+                          <th scope="col"><i class="fas fa-map-marker-alt"></i>Lugar</th>
+                          <th scope="col"><i class="fas fa-clock"></i>Tiempo aprox.</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Inicio ruta (Cra. 120. Cll. 39fc)
+                          </td>
+                          <td>6 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Est. San Javier</td>
+                          <td>9 minutos</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="modal-content-descrip--info">
+                      <span class="tfoot-bolder">Tiempo estimado de viaje:
+                      </span>
+                      15 minutos aprox.
+                    </div>
+                  </div>
                 </section>
                 <footer class="modal-footer">
-                  The footer of the first modal
+                  Las rutas están establecidas de acuerdo a la secretaria de movilidad.
                 </footer>
               </div>
             </div>
-
           </div>
+
         </div>
       </div>
     </div>
 
-    <!-- #Ruta:  -->
+    <!-- #Ruta: Conquistadores -->
     <div class="cards-our-routes__list__item">
       <div class="card-our-routes">
         <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
           src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17ce2d3a8ec%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17ce2d3a8ec%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22107.1953125%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
           data-holder-rendered="true">
         <div class="card-body">
-          <h5 class="card-title">Nombre de la ruta</h5>
+          <h5 class="card-title">Conquistadores</h5>
           <p class="card-text">Descripción corta de la ruta</p>
           <div class="card-container">
-            <!-- <a href="#modal" class="btn btn-color-default">Ver a detalle</a> -->
             <button type="button" class="btn btn-color-default open-modal" data-open="modal6">
               Ver más
             </button>
             <div class="modal" id="modal6" data-animation="slideInOutLeft">
               <div class="modal-dialog">
                 <header class="modal-header">
-                  The header of the first modal
+                  <span class="modal-header__title">Ruta: Conquistadores</span>
                   <button class="close-modal" aria-label="close modal" data-close>
                     ✕
                   </button>
                 </header>
                 <section class="modal-content">
-
+                  <div class="modal-content-map">
+                    <iframe loading="lazy"
+                      src="https://www.google.com/maps/d/embed?mid=1qUElV-pXqac4Lhnt60q1BcykjZ_QmdFa"></iframe>
+                  </div>
+                  <div class="modal-content-descrip">
+                    <h3>Nuestro recorrido</h3>
+                    <table class="modal-content-descrip-tb">
+                      <thead>
+                        <tr>
+                          <th scope="col"><i class="fas fa-map-marker-alt"></i>Lugar</th>
+                          <th scope="col"><i class="fas fa-clock"></i>Tiempo aprox.</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Inicio ruta (Cll. 39b. Cra. 110)
+                          </td>
+                          <td>3 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Centro de Salud</td>
+                          <td>2 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Est. San Javier</td>
+                          <td>9 minutos</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="modal-content-descrip--info">
+                      <span class="tfoot-bolder">Tiempo estimado de viaje:
+                      </span>
+                      16 minutos aprox.
+                    </div>
+                  </div>
                 </section>
                 <footer class="modal-footer">
-                  The footer of the first modal
+                  Las rutas están establecidas de acuerdo a la secretaria de movilidad.
+                </footer>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- #Ruta: El Salado -->
+    <div class="cards-our-routes__list__item">
+      <div class="card-our-routes">
+        <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+          src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17ce2d3a8ec%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17ce2d3a8ec%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22107.1953125%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+          data-holder-rendered="true">
+        <div class="card-body">
+          <h5 class="card-title">El Salado</h5>
+          <p class="card-text">Descripción corta de la ruta</p>
+          <div class="card-container">
+            <button type="button" class="btn btn-color-default open-modal" data-open="modal7">
+              Ver más
+            </button>
+            <div class="modal" id="modal7" data-animation="slideInOutLeft">
+              <div class="modal-dialog">
+                <header class="modal-header">
+                  <span class="modal-header__title">Ruta: El Salado</span>
+                  <button class="close-modal" aria-label="close modal" data-close>
+                    ✕
+                  </button>
+                </header>
+                <section class="modal-content">
+                  <div class="modal-content-map">
+                    <iframe loading="lazy"
+                      src="https://www.google.com/maps/d/embed?mid=1ROb8Ss4c3S0svMXwbYYRMCF0MlOD32kD"></iframe>
+                  </div>
+                  <div class="modal-content-descrip">
+                    <h3>Nuestro recorrido</h3>
+                    <table class="modal-content-descrip-tb">
+                      <thead>
+                        <tr>
+                          <th scope="col"><i class="fas fa-map-marker-alt"></i>Lugar</th>
+                          <th scope="col"><i class="fas fa-clock"></i>Tiempo aprox.</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Inicio ruta (Cll. 39. Cra. 118)
+                          </td>
+                          <td>5 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Centro de Salud</td>
+                          <td>3 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Est. San Javier</td>
+                          <td>9 minutos</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="modal-content-descrip--info">
+                      <span class="tfoot-bolder">Tiempo estimado de viaje:
+                      </span>
+                      17 minutos aprox.
+                    </div>
+                </section>
+                <footer class="modal-footer">
+                  Las rutas están establecidas de acuerdo a la secretaria de movilidad.
+                </footer>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- #Ruta: El Socorro -->
+    <div class="cards-our-routes__list__item">
+      <div class="card-our-routes">
+        <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+          src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17ce2d3a8ec%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17ce2d3a8ec%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22107.1953125%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+          data-holder-rendered="true">
+        <div class="card-body">
+          <h5 class="card-title">El Socorro</h5>
+          <p class="card-text">Descripción corta de la ruta</p>
+          <div class="card-container">
+            <button type="button" class="btn btn-color-default open-modal" data-open="modal8">
+              Ver más
+            </button>
+            <div class="modal" id="modal8" data-animation="slideInOutLeft">
+              <div class="modal-dialog">
+                <header class="modal-header">
+                  <span class="modal-header__title">Ruta: El Socorro</span>
+                  <button class="close-modal" aria-label="close modal" data-close>
+                    ✕
+                  </button>
+                </header>
+                <section class="modal-content">
+                  <div class="modal-content-map">
+                    <iframe loading="lazy"
+                      src="https://www.google.com/maps/d/embed?mid=1-vuXa0hQPp0_IWp17JuMHOeGWSt_0Rph"></iframe>
+                  </div>
+                  <div class="modal-content-descrip">
+                    <h3>Nuestro recorrido</h3>
+                    <table class="modal-content-descrip-tb">
+                      <thead>
+                        <tr>
+                          <th scope="col"><i class="fas fa-map-marker-alt"></i>Lugar</th>
+                          <th scope="col"><i class="fas fa-clock"></i>Tiempo aprox.</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Inicio ruta (Cll. 48cb. Cra. 118)
+                          </td>
+                          <td>4 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Nariño</td>
+                          <td>3 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Est. San Javier</td>
+                          <td>9 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Parche Pilsen</td>
+                          <td>3 minutos</td>
+                        </tr>
+                        <tr>
+                          <td>Don Huevo</td>
+                          <td>1 minuto</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="modal-content-descrip--info">
+                      <span class="tfoot-bolder">Tiempo estimado de viaje:
+                      </span>
+                      20 minutos aprox.
+                    </div>
+                  </div>
+                </section>
+                <footer class="modal-footer">
+                  Las rutas están establecidas de acuerdo a la secretaria de movilidad.
                 </footer>
               </div>
             </div>
@@ -318,6 +627,141 @@
         </div>
       </div>
     </div>
+
+    <!-- #Ruta: Peñitas -->
+    <div class="cards-our-routes__list__item">
+      <div class="card-our-routes">
+        <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+          src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17ce2d3a8ec%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17ce2d3a8ec%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22107.1953125%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+          data-holder-rendered="true">
+        <div class="card-body">
+          <h5 class="card-title">Peñitas</h5>
+          <p class="card-text">Descripción corta de la ruta</p>
+          <div class="card-container">
+            <button type="button" class="btn btn-color-default open-modal" data-open="modal9">
+              Ver más
+            </button>
+            <div class="modal" id="modal9" data-animation="slideInOutLeft">
+              <div class="modal-dialog">
+                <header class="modal-header">
+                  <span class="modal-header__title">Ruta: Peñitas</span>
+                  <button class="close-modal" aria-label="close modal" data-close>
+                    ✕
+                  </button>
+                </header>
+                <section class="modal-content">
+                  <div class="modal-content-map">
+                    <iframe loading="lazy"
+                      src="https://www.google.com/maps/d/embed?mid=1p6S5epK000FKzT8wQwpDH579eXBQP45P"></iframe>
+                  </div>
+                  <div class="modal-content-descrip">
+                    <h3>Nuestro recorrido</h3>
+                    <table class="modal-content-descrip-tb">
+                      <thead>
+                        <tr>
+                          <th scope="col"><i class="fas fa-map-marker-alt"></i>Lugar</th>
+                          <th scope="col"><i class="fas fa-clock"></i>Tiempo aprox.</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Inicio ruta (Cra. 120e. Cll. 48d)
+                          </td>
+                          <td>0 minutos</td>
+                        </tr>                       
+                        <tr>
+                          <td>Est. San Javier</td>
+                          <td>9 minutos</td>
+                        </tr>                       
+                      </tbody>
+                    </table>
+                    <div class="modal-content-descrip--info">
+                      <span class="tfoot-bolder">Tiempo estimado de viaje:
+                      </span>
+                      9 minutos aprox.
+                    </div>
+                  </div>
+                </section>
+                <footer class="modal-footer">
+                  Las rutas están establecidas de acuerdo a la secretaria de movilidad.
+                </footer>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- #Ruta: Quintas de San Javier -->
+    <div class="cards-our-routes__list__item">
+      <div class="card-our-routes">
+        <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+          src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17ce2d3a8ec%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17ce2d3a8ec%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22107.1953125%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+          data-holder-rendered="true">
+        <div class="card-body">
+          <h5 class="card-title">Quintas de San Javier</h5>
+          <p class="card-text">Descripción corta de la ruta</p>
+          <div class="card-container">
+            <button type="button" class="btn btn-color-default open-modal" data-open="modal9">
+              Ver más
+            </button>
+            <div class="modal" id="modal9" data-animation="slideInOutLeft">
+              <div class="modal-dialog">
+                <header class="modal-header">
+                  <span class="modal-header__title">Ruta: Quintas de San Javier</span>
+                  <button class="close-modal" aria-label="close modal" data-close>
+                    ✕
+                  </button>
+                </header>
+                <section class="modal-content">
+                  <div class="modal-content-map">
+                    <iframe loading="lazy"
+                      src="https://www.google.com/maps/d/embed?mid=1FwLT4r1HNenIJSN0v5uGEfF6dT1NS3Ox"></iframe>
+                  </div>
+                  <div class="modal-content-descrip">
+                    <h3>Nuestro recorrido</h3>
+                    <table class="modal-content-descrip-tb">
+                      <thead>
+                        <tr>
+                          <th scope="col"><i class="fas fa-map-marker-alt"></i>Lugar</th>
+                          <th scope="col"><i class="fas fa-clock"></i>Tiempo aprox.</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Inicio ruta (Cra. 120c. Cll. 43)
+                          </td>
+                          <td>0 minutos</td>
+                        </tr>                       
+                        <tr>
+                          <td>Centro de Salud</td>
+                          <td>2 minutos</td>
+                        </tr>                       
+                        <tr>
+                          <td>Est. San Javier</td>
+                          <td>9 minutos</td>
+                        </tr>                       
+                      </tbody>
+                    </table>
+                    <div class="modal-content-descrip--info">
+                      <span class="tfoot-bolder">Tiempo estimado de viaje:
+                      </span>
+                      11 minutos aprox.
+                    </div>
+                  </div>
+                </section>
+                <footer class="modal-footer">
+                  Las rutas están establecidas de acuerdo a la secretaria de movilidad.
+                </footer>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
 
   </div>
 

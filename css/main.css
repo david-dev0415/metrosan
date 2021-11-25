@@ -740,7 +740,7 @@ div.new-position {
 @supports(display: grid) {
   
   .cards-our-routes__list {
-    width: 100%;    
+    width: 80%;    
     margin: 1rem auto;
     padding: 1rem;
     display: grid;
@@ -748,7 +748,7 @@ div.new-position {
     grid-template-rows: auto;
     align-items: center;
     text-align: center;
-    gap: 1rem;
+    gap: 2rem;
   }
 
 }

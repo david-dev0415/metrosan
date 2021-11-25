@@ -97,6 +97,7 @@ button {
 
 .modal-header .modal-header__title {
   font-weight: 600;
+  font-size: 1.3rem;
 }
 
 .modal-content-descrip {
@@ -115,14 +116,14 @@ button {
   border-collapse: separate;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  /* vertical-align: ; */
 }
 
 .modal-content-descrip-tb thead tr th,
 .modal-content-descrip-tb tbody tr td,
 .modal-content-descrip-tb tfoot tr td,
 .modal-content-descrip--info {
-  padding-top: 1rem;
-  padding-left: 1rem;
+  padding: 0.5rem;
 }
 
 /* .modal-content-descrip--info {
@@ -149,8 +150,6 @@ button {
 .modal-content-descrip-tb thead th i {
   margin-right: 0.3rem;
 }
-
-
 
 .modal-content-descrip-tb tr:nth-child(even) {
   background-color: #eee;  
